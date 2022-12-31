@@ -147,3 +147,35 @@ git remote -v
 git branch
 git push origin master
 git push origin main
+ls
+git branch
+git remote add https://github.com/ashishdubey195/myappdemo.git
+git remote add origin git@github.com:ashishdubey195/myappdemo.git
+git remote -v
+git branch
+git checkout -b f1
+git branch
+touch 1.txt
+git status
+git add .
+git commit -m "CM1 on f1"
+ls
+git branch
+git checkout main
+ls
+cd ashishsshtest
+git branch
+git switch -c f1
+touch 1.txt
+git add .
+
+git checkout main
+git branch
+git switch -c f2
+touch 2.txt
+git add .
+git commit -m "CM1 on f2"
+git checkout main
+git push origin main --all
+git push origin --all
+git remote show origin
